@@ -1,0 +1,908 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		387B4CFE1CD1BEE10075A191 /* HospitalInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = 387B4CFD1CD1BEE10075A191 /* HospitalInfo.m */; };
+		387B4D011CD1DC020075A191 /* Response.m in Sources */ = {isa = PBXBuildFile; fileRef = 387B4D001CD1DC020075A191 /* Response.m */; };
+		387B4D041CD1FF720075A191 /* BaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 387B4D031CD1FF720075A191 /* BaseViewController.m */; };
+		389890AA1CCA074300E9AC92 /* RegisterView.m in Sources */ = {isa = PBXBuildFile; fileRef = 389890A91CCA074300E9AC92 /* RegisterView.m */; };
+		38A1801B1CD09A78007B5CA4 /* UserRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = 38A1801A1CD09A78007B5CA4 /* UserRequest.m */; };
+		38A180271CD09D74007B5CA4 /* AESCrypt.m in Sources */ = {isa = PBXBuildFile; fileRef = 38A1801E1CD09D74007B5CA4 /* AESCrypt.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		38A180281CD09D74007B5CA4 /* NSData+AES256.m in Sources */ = {isa = PBXBuildFile; fileRef = 38A180201CD09D74007B5CA4 /* NSData+AES256.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		38A180291CD09D74007B5CA4 /* NSData+Base64.m in Sources */ = {isa = PBXBuildFile; fileRef = 38A180221CD09D74007B5CA4 /* NSData+Base64.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		38A1802A1CD09D74007B5CA4 /* NSData+CommonCrypto.m in Sources */ = {isa = PBXBuildFile; fileRef = 38A180241CD09D74007B5CA4 /* NSData+CommonCrypto.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		38A1802B1CD09D74007B5CA4 /* NSString+Base64.m in Sources */ = {isa = PBXBuildFile; fileRef = 38A180261CD09D74007B5CA4 /* NSString+Base64.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		38A1802E1CD0AE80007B5CA4 /* BaseRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = 38A1802D1CD0AE80007B5CA4 /* BaseRequest.m */; };
+		38A180341CD0B4F9007B5CA4 /* Base64.m in Sources */ = {isa = PBXBuildFile; fileRef = 38A180301CD0B4F9007B5CA4 /* Base64.m */; };
+		38A180351CD0B4F9007B5CA4 /* NSString+MD5.m in Sources */ = {isa = PBXBuildFile; fileRef = 38A180331CD0B4F9007B5CA4 /* NSString+MD5.m */; };
+		38AE77651CC8821C00F10484 /* LoginView.m in Sources */ = {isa = PBXBuildFile; fileRef = 38AE77641CC8821C00F10484 /* LoginView.m */; };
+		38AE77681CC88C9300F10484 /* LoginViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 38AE77671CC88C9300F10484 /* LoginViewController.m */; };
+		38AE776B1CC8BC9000F10484 /* RegisterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 38AE776A1CC8BC9000F10484 /* RegisterViewController.m */; };
+		38AE77701CC8C12F00F10484 /* UINavigationController+FDFullscreenPopGesture.m in Sources */ = {isa = PBXBuildFile; fileRef = 38AE776F1CC8C12F00F10484 /* UINavigationController+FDFullscreenPopGesture.m */; };
+		38AE77781CC8C69600F10484 /* HomeTabBarController.m in Sources */ = {isa = PBXBuildFile; fileRef = 38AE77771CC8C69600F10484 /* HomeTabBarController.m */; };
+		38AE777B1CC8D68E00F10484 /* HomePageViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 38AE777A1CC8D68E00F10484 /* HomePageViewController.m */; };
+		38AE777E1CC8DE8800F10484 /* SettingTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 38AE777D1CC8DE8800F10484 /* SettingTableViewController.m */; };
+		38B0089C1CCF6FD500613057 /* ForgetController.m in Sources */ = {isa = PBXBuildFile; fileRef = 38B0089B1CCF6FD500613057 /* ForgetController.m */; };
+		38B0089F1CCF767D00613057 /* ForgetView.m in Sources */ = {isa = PBXBuildFile; fileRef = 38B0089E1CCF767D00613057 /* ForgetView.m */; };
+		38CD78D71CC623D2004FFCF4 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 38CD78D61CC623D2004FFCF4 /* main.m */; };
+		38CD78DA1CC623D2004FFCF4 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 38CD78D91CC623D2004FFCF4 /* AppDelegate.m */; };
+		38CD78E01CC623D2004FFCF4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 38CD78DE1CC623D2004FFCF4 /* Main.storyboard */; };
+		38CD78E31CC623D2004FFCF4 /* WisdomHospital.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 38CD78E11CC623D2004FFCF4 /* WisdomHospital.xcdatamodeld */; };
+		38CD78E51CC623D2004FFCF4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 38CD78E41CC623D2004FFCF4 /* Assets.xcassets */; };
+		38CD78E81CC623D2004FFCF4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 38CD78E61CC623D2004FFCF4 /* LaunchScreen.storyboard */; };
+		38CD78F31CC623D2004FFCF4 /* WisdomHospitalTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 38CD78F21CC623D2004FFCF4 /* WisdomHospitalTests.m */; };
+		38CD78FE1CC623D2004FFCF4 /* WisdomHospitalUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 38CD78FD1CC623D2004FFCF4 /* WisdomHospitalUITests.m */; };
+		38CD79181CC62A74004FFCF4 /* User.m in Sources */ = {isa = PBXBuildFile; fileRef = 38CD79171CC62A74004FFCF4 /* User.m */; };
+		8C8C8AAF72A98BB807D4B207 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = C2A0AEECCAD6104856224663 /* libPods.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		38CD78EF1CC623D2004FFCF4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 38CD78CA1CC623D2004FFCF4 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 38CD78D11CC623D2004FFCF4;
+			remoteInfo = WisdomHospital;
+		};
+		38CD78FA1CC623D2004FFCF4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 38CD78CA1CC623D2004FFCF4 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 38CD78D11CC623D2004FFCF4;
+			remoteInfo = WisdomHospital;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		380944451CD0588400799781 /* HeaderDefines.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HeaderDefines.h; sourceTree = "<group>"; };
+		387B4CFC1CD1BEE10075A191 /* HospitalInfo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = HospitalInfo.h; path = HomePage/LoginAndRegister/Model/HospitalInfo.h; sourceTree = "<group>"; };
+		387B4CFD1CD1BEE10075A191 /* HospitalInfo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = HospitalInfo.m; path = HomePage/LoginAndRegister/Model/HospitalInfo.m; sourceTree = "<group>"; };
+		387B4CFF1CD1DC020075A191 /* Response.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Response.h; path = Common/Response.h; sourceTree = "<group>"; };
+		387B4D001CD1DC020075A191 /* Response.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Response.m; path = Common/Response.m; sourceTree = "<group>"; };
+		387B4D021CD1FF720075A191 /* BaseViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = BaseViewController.h; path = Common/BaseViewController.h; sourceTree = "<group>"; };
+		387B4D031CD1FF720075A191 /* BaseViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = BaseViewController.m; path = Common/BaseViewController.m; sourceTree = "<group>"; };
+		389890A81CCA074300E9AC92 /* RegisterView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = RegisterView.h; path = HomePage/LoginAndRegister/View/RegisterView.h; sourceTree = "<group>"; };
+		389890A91CCA074300E9AC92 /* RegisterView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = RegisterView.m; path = HomePage/LoginAndRegister/View/RegisterView.m; sourceTree = "<group>"; };
+		38A180191CD09A78007B5CA4 /* UserRequest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = UserRequest.h; path = HomePage/LoginAndRegister/Request/UserRequest.h; sourceTree = "<group>"; };
+		38A1801A1CD09A78007B5CA4 /* UserRequest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = UserRequest.m; path = HomePage/LoginAndRegister/Request/UserRequest.m; sourceTree = "<group>"; };
+		38A1801D1CD09D74007B5CA4 /* AESCrypt.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AESCrypt.h; path = ThirtPart/AES/AESCrypt.h; sourceTree = "<group>"; };
+		38A1801E1CD09D74007B5CA4 /* AESCrypt.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AESCrypt.m; path = ThirtPart/AES/AESCrypt.m; sourceTree = "<group>"; };
+		38A1801F1CD09D74007B5CA4 /* NSData+AES256.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "NSData+AES256.h"; path = "ThirtPart/AES/NSData+AES256.h"; sourceTree = "<group>"; };
+		38A180201CD09D74007B5CA4 /* NSData+AES256.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "NSData+AES256.m"; path = "ThirtPart/AES/NSData+AES256.m"; sourceTree = "<group>"; };
+		38A180211CD09D74007B5CA4 /* NSData+Base64.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "NSData+Base64.h"; path = "ThirtPart/AES/NSData+Base64.h"; sourceTree = "<group>"; };
+		38A180221CD09D74007B5CA4 /* NSData+Base64.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "NSData+Base64.m"; path = "ThirtPart/AES/NSData+Base64.m"; sourceTree = "<group>"; };
+		38A180231CD09D74007B5CA4 /* NSData+CommonCrypto.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "NSData+CommonCrypto.h"; path = "ThirtPart/AES/NSData+CommonCrypto.h"; sourceTree = "<group>"; };
+		38A180241CD09D74007B5CA4 /* NSData+CommonCrypto.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "NSData+CommonCrypto.m"; path = "ThirtPart/AES/NSData+CommonCrypto.m"; sourceTree = "<group>"; };
+		38A180251CD09D74007B5CA4 /* NSString+Base64.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "NSString+Base64.h"; path = "ThirtPart/AES/NSString+Base64.h"; sourceTree = "<group>"; };
+		38A180261CD09D74007B5CA4 /* NSString+Base64.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "NSString+Base64.m"; path = "ThirtPart/AES/NSString+Base64.m"; sourceTree = "<group>"; };
+		38A1802C1CD0AE80007B5CA4 /* BaseRequest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = BaseRequest.h; path = Common/BaseRequest.h; sourceTree = "<group>"; };
+		38A1802D1CD0AE80007B5CA4 /* BaseRequest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = BaseRequest.m; path = Common/BaseRequest.m; sourceTree = "<group>"; };
+		38A1802F1CD0B4F9007B5CA4 /* Base64.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Base64.h; path = "ThirtPart/AES/编码Encryption/Base64.h"; sourceTree = "<group>"; };
+		38A180301CD0B4F9007B5CA4 /* Base64.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Base64.m; path = "ThirtPart/AES/编码Encryption/Base64.m"; sourceTree = "<group>"; };
+		38A180311CD0B4F9007B5CA4 /* NSString+Encryption.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "NSString+Encryption.h"; path = "ThirtPart/AES/编码Encryption/NSString+Encryption.h"; sourceTree = "<group>"; };
+		38A180321CD0B4F9007B5CA4 /* NSString+MD5.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "NSString+MD5.h"; path = "ThirtPart/AES/编码Encryption/NSString+MD5.h"; sourceTree = "<group>"; };
+		38A180331CD0B4F9007B5CA4 /* NSString+MD5.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "NSString+MD5.m"; path = "ThirtPart/AES/编码Encryption/NSString+MD5.m"; sourceTree = "<group>"; };
+		38AE77631CC8821C00F10484 /* LoginView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = LoginView.h; path = HomePage/LoginAndRegister/View/LoginView.h; sourceTree = "<group>"; };
+		38AE77641CC8821C00F10484 /* LoginView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = LoginView.m; path = HomePage/LoginAndRegister/View/LoginView.m; sourceTree = "<group>"; };
+		38AE77661CC88C9300F10484 /* LoginViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = LoginViewController.h; path = HomePage/LoginAndRegister/Contrller/LoginViewController.h; sourceTree = "<group>"; };
+		38AE77671CC88C9300F10484 /* LoginViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = LoginViewController.m; path = HomePage/LoginAndRegister/Contrller/LoginViewController.m; sourceTree = "<group>"; };
+		38AE77691CC8BC9000F10484 /* RegisterViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = RegisterViewController.h; path = HomePage/LoginAndRegister/Contrller/RegisterViewController.h; sourceTree = "<group>"; };
+		38AE776A1CC8BC9000F10484 /* RegisterViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = RegisterViewController.m; path = HomePage/LoginAndRegister/Contrller/RegisterViewController.m; sourceTree = "<group>"; };
+		38AE776E1CC8C12F00F10484 /* UINavigationController+FDFullscreenPopGesture.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "UINavigationController+FDFullscreenPopGesture.h"; path = "ThirtPart/FDFullscreenPopGesture/UINavigationController+FDFullscreenPopGesture.h"; sourceTree = "<group>"; };
+		38AE776F1CC8C12F00F10484 /* UINavigationController+FDFullscreenPopGesture.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "UINavigationController+FDFullscreenPopGesture.m"; path = "ThirtPart/FDFullscreenPopGesture/UINavigationController+FDFullscreenPopGesture.m"; sourceTree = "<group>"; };
+		38AE77761CC8C69600F10484 /* HomeTabBarController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = HomeTabBarController.h; path = HomePage/Main/Controller/HomeTabBarController.h; sourceTree = "<group>"; };
+		38AE77771CC8C69600F10484 /* HomeTabBarController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = HomeTabBarController.m; path = HomePage/Main/Controller/HomeTabBarController.m; sourceTree = "<group>"; };
+		38AE77791CC8D68E00F10484 /* HomePageViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = HomePageViewController.h; path = HomePage/Main/Controller/HomePageViewController.h; sourceTree = "<group>"; };
+		38AE777A1CC8D68E00F10484 /* HomePageViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = HomePageViewController.m; path = HomePage/Main/Controller/HomePageViewController.m; sourceTree = "<group>"; };
+		38AE777C1CC8DE8800F10484 /* SettingTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SettingTableViewController.h; path = HomePage/Main/Controller/SettingTableViewController.h; sourceTree = "<group>"; };
+		38AE777D1CC8DE8800F10484 /* SettingTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SettingTableViewController.m; path = HomePage/Main/Controller/SettingTableViewController.m; sourceTree = "<group>"; };
+		38B0089A1CCF6FD500613057 /* ForgetController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ForgetController.h; sourceTree = "<group>"; };
+		38B0089B1CCF6FD500613057 /* ForgetController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ForgetController.m; sourceTree = "<group>"; };
+		38B0089D1CCF767D00613057 /* ForgetView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ForgetView.h; sourceTree = "<group>"; };
+		38B0089E1CCF767D00613057 /* ForgetView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ForgetView.m; sourceTree = "<group>"; };
+		38CD78D21CC623D2004FFCF4 /* WisdomHospital.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WisdomHospital.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		38CD78D61CC623D2004FFCF4 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		38CD78D81CC623D2004FFCF4 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		38CD78D91CC623D2004FFCF4 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		38CD78DF1CC623D2004FFCF4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		38CD78E21CC623D2004FFCF4 /* WisdomHospital.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = WisdomHospital.xcdatamodel; sourceTree = "<group>"; };
+		38CD78E41CC623D2004FFCF4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		38CD78E71CC623D2004FFCF4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		38CD78E91CC623D2004FFCF4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		38CD78EE1CC623D2004FFCF4 /* WisdomHospitalTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WisdomHospitalTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		38CD78F21CC623D2004FFCF4 /* WisdomHospitalTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WisdomHospitalTests.m; sourceTree = "<group>"; };
+		38CD78F41CC623D2004FFCF4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		38CD78F91CC623D2004FFCF4 /* WisdomHospitalUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WisdomHospitalUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		38CD78FD1CC623D2004FFCF4 /* WisdomHospitalUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WisdomHospitalUITests.m; sourceTree = "<group>"; };
+		38CD78FF1CC623D2004FFCF4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		38CD79161CC62A74004FFCF4 /* User.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = User.h; path = HomePage/LoginAndRegister/Model/User.h; sourceTree = "<group>"; };
+		38CD79171CC62A74004FFCF4 /* User.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = User.m; path = HomePage/LoginAndRegister/Model/User.m; sourceTree = "<group>"; };
+		52A75677940F8D8896B2C37B /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
+		731B0E5F74485FE209CA1F50 /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
+		C2A0AEECCAD6104856224663 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		38CD78CF1CC623D2004FFCF4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8C8C8AAF72A98BB807D4B207 /* libPods.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		38CD78EB1CC623D2004FFCF4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		38CD78F61CC623D2004FFCF4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		302413E430CDF80F9C784F57 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C2A0AEECCAD6104856224663 /* libPods.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		380944441CD0583200799781 /* Common（共用） */ = {
+			isa = PBXGroup;
+			children = (
+				380944451CD0588400799781 /* HeaderDefines.h */,
+				38A1802C1CD0AE80007B5CA4 /* BaseRequest.h */,
+				38A1802D1CD0AE80007B5CA4 /* BaseRequest.m */,
+				387B4CFF1CD1DC020075A191 /* Response.h */,
+				387B4D001CD1DC020075A191 /* Response.m */,
+				387B4D021CD1FF720075A191 /* BaseViewController.h */,
+				387B4D031CD1FF720075A191 /* BaseViewController.m */,
+			);
+			name = "Common（共用）";
+			sourceTree = "<group>";
+		};
+		38A1801C1CD09D56007B5CA4 /* ASE */ = {
+			isa = PBXGroup;
+			children = (
+				38A1802F1CD0B4F9007B5CA4 /* Base64.h */,
+				38A180301CD0B4F9007B5CA4 /* Base64.m */,
+				38A180311CD0B4F9007B5CA4 /* NSString+Encryption.h */,
+				38A180321CD0B4F9007B5CA4 /* NSString+MD5.h */,
+				38A180331CD0B4F9007B5CA4 /* NSString+MD5.m */,
+				38A1801D1CD09D74007B5CA4 /* AESCrypt.h */,
+				38A1801E1CD09D74007B5CA4 /* AESCrypt.m */,
+				38A1801F1CD09D74007B5CA4 /* NSData+AES256.h */,
+				38A180201CD09D74007B5CA4 /* NSData+AES256.m */,
+				38A180211CD09D74007B5CA4 /* NSData+Base64.h */,
+				38A180221CD09D74007B5CA4 /* NSData+Base64.m */,
+				38A180231CD09D74007B5CA4 /* NSData+CommonCrypto.h */,
+				38A180241CD09D74007B5CA4 /* NSData+CommonCrypto.m */,
+				38A180251CD09D74007B5CA4 /* NSString+Base64.h */,
+				38A180261CD09D74007B5CA4 /* NSString+Base64.m */,
+			);
+			name = ASE;
+			sourceTree = "<group>";
+		};
+		38AE776C1CC8C0CE00F10484 /* ThirdPart（第三方） */ = {
+			isa = PBXGroup;
+			children = (
+				38A1801C1CD09D56007B5CA4 /* ASE */,
+				38AE776D1CC8C11900F10484 /* FDFullscreenPopGesture */,
+			);
+			name = "ThirdPart（第三方）";
+			sourceTree = "<group>";
+		};
+		38AE776D1CC8C11900F10484 /* FDFullscreenPopGesture */ = {
+			isa = PBXGroup;
+			children = (
+				38AE776E1CC8C12F00F10484 /* UINavigationController+FDFullscreenPopGesture.h */,
+				38AE776F1CC8C12F00F10484 /* UINavigationController+FDFullscreenPopGesture.m */,
+			);
+			name = FDFullscreenPopGesture;
+			sourceTree = "<group>";
+		};
+		38AE77711CC8C5E600F10484 /* Main */ = {
+			isa = PBXGroup;
+			children = (
+				38AE77751CC8C62000F10484 /* Model */,
+				38AE77741CC8C61B00F10484 /* View */,
+				38AE77721CC8C60A00F10484 /* Controller */,
+			);
+			name = Main;
+			sourceTree = "<group>";
+		};
+		38AE77721CC8C60A00F10484 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				38AE77761CC8C69600F10484 /* HomeTabBarController.h */,
+				38AE77771CC8C69600F10484 /* HomeTabBarController.m */,
+				38AE77791CC8D68E00F10484 /* HomePageViewController.h */,
+				38AE777A1CC8D68E00F10484 /* HomePageViewController.m */,
+				38AE777C1CC8DE8800F10484 /* SettingTableViewController.h */,
+				38AE777D1CC8DE8800F10484 /* SettingTableViewController.m */,
+			);
+			name = Controller;
+			sourceTree = "<group>";
+		};
+		38AE77741CC8C61B00F10484 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = View;
+			sourceTree = "<group>";
+		};
+		38AE77751CC8C62000F10484 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		38CD78C91CC623D2004FFCF4 = {
+			isa = PBXGroup;
+			children = (
+				38CD78D41CC623D2004FFCF4 /* WisdomHospital */,
+				38CD78F11CC623D2004FFCF4 /* WisdomHospitalTests */,
+				38CD78FC1CC623D2004FFCF4 /* WisdomHospitalUITests */,
+				38CD78D31CC623D2004FFCF4 /* Products */,
+				FE31A8DD7E5DC22F0E455C36 /* Pods */,
+				302413E430CDF80F9C784F57 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		38CD78D31CC623D2004FFCF4 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				38CD78D21CC623D2004FFCF4 /* WisdomHospital.app */,
+				38CD78EE1CC623D2004FFCF4 /* WisdomHospitalTests.xctest */,
+				38CD78F91CC623D2004FFCF4 /* WisdomHospitalUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		38CD78D41CC623D2004FFCF4 /* WisdomHospital */ = {
+			isa = PBXGroup;
+			children = (
+				380944441CD0583200799781 /* Common（共用） */,
+				38AE776C1CC8C0CE00F10484 /* ThirdPart（第三方） */,
+				38CD790F1CC62715004FFCF4 /* HomePage（首页） */,
+				38CD790E1CC626B7004FFCF4 /* SpecialColumn（专栏） */,
+				38CD790D1CC626B1004FFCF4 /* Navigation（导航） */,
+				38CD790C1CC626AE004FFCF4 /* Message（消息） */,
+				38CD79101CC627C1004FFCF4 /* CardManagement（卡管理） */,
+				38CD790B1CC62692004FFCF4 /* Stroryboard */,
+				38CD78D81CC623D2004FFCF4 /* AppDelegate.h */,
+				38CD78D91CC623D2004FFCF4 /* AppDelegate.m */,
+				38CD78E41CC623D2004FFCF4 /* Assets.xcassets */,
+				38CD78E91CC623D2004FFCF4 /* Info.plist */,
+				38CD78E11CC623D2004FFCF4 /* WisdomHospital.xcdatamodeld */,
+				38CD78D51CC623D2004FFCF4 /* Supporting Files */,
+			);
+			path = WisdomHospital;
+			sourceTree = "<group>";
+		};
+		38CD78D51CC623D2004FFCF4 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				38CD78D61CC623D2004FFCF4 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		38CD78F11CC623D2004FFCF4 /* WisdomHospitalTests */ = {
+			isa = PBXGroup;
+			children = (
+				38CD78F21CC623D2004FFCF4 /* WisdomHospitalTests.m */,
+				38CD78F41CC623D2004FFCF4 /* Info.plist */,
+			);
+			path = WisdomHospitalTests;
+			sourceTree = "<group>";
+		};
+		38CD78FC1CC623D2004FFCF4 /* WisdomHospitalUITests */ = {
+			isa = PBXGroup;
+			children = (
+				38CD78FD1CC623D2004FFCF4 /* WisdomHospitalUITests.m */,
+				38CD78FF1CC623D2004FFCF4 /* Info.plist */,
+			);
+			path = WisdomHospitalUITests;
+			sourceTree = "<group>";
+		};
+		38CD790B1CC62692004FFCF4 /* Stroryboard */ = {
+			isa = PBXGroup;
+			children = (
+				38CD78DE1CC623D2004FFCF4 /* Main.storyboard */,
+				38CD78E61CC623D2004FFCF4 /* LaunchScreen.storyboard */,
+			);
+			name = Stroryboard;
+			sourceTree = "<group>";
+		};
+		38CD790C1CC626AE004FFCF4 /* Message（消息） */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = "Message（消息）";
+			sourceTree = "<group>";
+		};
+		38CD790D1CC626B1004FFCF4 /* Navigation（导航） */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = "Navigation（导航）";
+			sourceTree = "<group>";
+		};
+		38CD790E1CC626B7004FFCF4 /* SpecialColumn（专栏） */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = "SpecialColumn（专栏）";
+			sourceTree = "<group>";
+		};
+		38CD790F1CC62715004FFCF4 /* HomePage（首页） */ = {
+			isa = PBXGroup;
+			children = (
+				38AE77711CC8C5E600F10484 /* Main */,
+				38CD79111CC62850004FFCF4 /* LoginAndRegister */,
+			);
+			name = "HomePage（首页）";
+			sourceTree = "<group>";
+		};
+		38CD79101CC627C1004FFCF4 /* CardManagement（卡管理） */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = "CardManagement（卡管理）";
+			sourceTree = "<group>";
+		};
+		38CD79111CC62850004FFCF4 /* LoginAndRegister */ = {
+			isa = PBXGroup;
+			children = (
+				38CD79151CC62985004FFCF4 /* Request */,
+				38CD79141CC62976004FFCF4 /* Controller */,
+				38CD79131CC62974004FFCF4 /* View */,
+				38CD79121CC62968004FFCF4 /* Model */,
+			);
+			name = LoginAndRegister;
+			sourceTree = "<group>";
+		};
+		38CD79121CC62968004FFCF4 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				38CD79161CC62A74004FFCF4 /* User.h */,
+				38CD79171CC62A74004FFCF4 /* User.m */,
+				387B4CFC1CD1BEE10075A191 /* HospitalInfo.h */,
+				387B4CFD1CD1BEE10075A191 /* HospitalInfo.m */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		38CD79131CC62974004FFCF4 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				38AE77631CC8821C00F10484 /* LoginView.h */,
+				38AE77641CC8821C00F10484 /* LoginView.m */,
+				389890A81CCA074300E9AC92 /* RegisterView.h */,
+				389890A91CCA074300E9AC92 /* RegisterView.m */,
+				38B0089D1CCF767D00613057 /* ForgetView.h */,
+				38B0089E1CCF767D00613057 /* ForgetView.m */,
+			);
+			name = View;
+			sourceTree = "<group>";
+		};
+		38CD79141CC62976004FFCF4 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				38AE77661CC88C9300F10484 /* LoginViewController.h */,
+				38AE77671CC88C9300F10484 /* LoginViewController.m */,
+				38AE77691CC8BC9000F10484 /* RegisterViewController.h */,
+				38AE776A1CC8BC9000F10484 /* RegisterViewController.m */,
+				38B0089A1CCF6FD500613057 /* ForgetController.h */,
+				38B0089B1CCF6FD500613057 /* ForgetController.m */,
+			);
+			name = Controller;
+			sourceTree = "<group>";
+		};
+		38CD79151CC62985004FFCF4 /* Request */ = {
+			isa = PBXGroup;
+			children = (
+				38A180191CD09A78007B5CA4 /* UserRequest.h */,
+				38A1801A1CD09A78007B5CA4 /* UserRequest.m */,
+			);
+			name = Request;
+			sourceTree = "<group>";
+		};
+		FE31A8DD7E5DC22F0E455C36 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				731B0E5F74485FE209CA1F50 /* Pods.debug.xcconfig */,
+				52A75677940F8D8896B2C37B /* Pods.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		38CD78D11CC623D2004FFCF4 /* WisdomHospital */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 38CD79021CC623D2004FFCF4 /* Build configuration list for PBXNativeTarget "WisdomHospital" */;
+			buildPhases = (
+				F4DD340D431ECDBF21EC18CE /* Check Pods Manifest.lock */,
+				38CD78CE1CC623D2004FFCF4 /* Sources */,
+				38CD78CF1CC623D2004FFCF4 /* Frameworks */,
+				38CD78D01CC623D2004FFCF4 /* Resources */,
+				0278A6E66902836DAFF13F04 /* Embed Pods Frameworks */,
+				43E06673DB9E7BEAB1AE329E /* Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = WisdomHospital;
+			productName = WisdomHospital;
+			productReference = 38CD78D21CC623D2004FFCF4 /* WisdomHospital.app */;
+			productType = "com.apple.product-type.application";
+		};
+		38CD78ED1CC623D2004FFCF4 /* WisdomHospitalTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 38CD79051CC623D2004FFCF4 /* Build configuration list for PBXNativeTarget "WisdomHospitalTests" */;
+			buildPhases = (
+				38CD78EA1CC623D2004FFCF4 /* Sources */,
+				38CD78EB1CC623D2004FFCF4 /* Frameworks */,
+				38CD78EC1CC623D2004FFCF4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				38CD78F01CC623D2004FFCF4 /* PBXTargetDependency */,
+			);
+			name = WisdomHospitalTests;
+			productName = WisdomHospitalTests;
+			productReference = 38CD78EE1CC623D2004FFCF4 /* WisdomHospitalTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		38CD78F81CC623D2004FFCF4 /* WisdomHospitalUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 38CD79081CC623D2004FFCF4 /* Build configuration list for PBXNativeTarget "WisdomHospitalUITests" */;
+			buildPhases = (
+				38CD78F51CC623D2004FFCF4 /* Sources */,
+				38CD78F61CC623D2004FFCF4 /* Frameworks */,
+				38CD78F71CC623D2004FFCF4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				38CD78FB1CC623D2004FFCF4 /* PBXTargetDependency */,
+			);
+			name = WisdomHospitalUITests;
+			productName = WisdomHospitalUITests;
+			productReference = 38CD78F91CC623D2004FFCF4 /* WisdomHospitalUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		38CD78CA1CC623D2004FFCF4 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = SXTJ;
+				TargetAttributes = {
+					38CD78D11CC623D2004FFCF4 = {
+						CreatedOnToolsVersion = 7.2.1;
+					};
+					38CD78ED1CC623D2004FFCF4 = {
+						CreatedOnToolsVersion = 7.2.1;
+						TestTargetID = 38CD78D11CC623D2004FFCF4;
+					};
+					38CD78F81CC623D2004FFCF4 = {
+						CreatedOnToolsVersion = 7.2.1;
+						TestTargetID = 38CD78D11CC623D2004FFCF4;
+					};
+				};
+			};
+			buildConfigurationList = 38CD78CD1CC623D2004FFCF4 /* Build configuration list for PBXProject "WisdomHospital" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 38CD78C91CC623D2004FFCF4;
+			productRefGroup = 38CD78D31CC623D2004FFCF4 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				38CD78D11CC623D2004FFCF4 /* WisdomHospital */,
+				38CD78ED1CC623D2004FFCF4 /* WisdomHospitalTests */,
+				38CD78F81CC623D2004FFCF4 /* WisdomHospitalUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		38CD78D01CC623D2004FFCF4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				38CD78E81CC623D2004FFCF4 /* LaunchScreen.storyboard in Resources */,
+				38CD78E51CC623D2004FFCF4 /* Assets.xcassets in Resources */,
+				38CD78E01CC623D2004FFCF4 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		38CD78EC1CC623D2004FFCF4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		38CD78F71CC623D2004FFCF4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		0278A6E66902836DAFF13F04 /* Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		43E06673DB9E7BEAB1AE329E /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F4DD340D431ECDBF21EC18CE /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		38CD78CE1CC623D2004FFCF4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				38A180291CD09D74007B5CA4 /* NSData+Base64.m in Sources */,
+				38A1801B1CD09A78007B5CA4 /* UserRequest.m in Sources */,
+				38B0089C1CCF6FD500613057 /* ForgetController.m in Sources */,
+				38AE77651CC8821C00F10484 /* LoginView.m in Sources */,
+				38CD79181CC62A74004FFCF4 /* User.m in Sources */,
+				38AE777B1CC8D68E00F10484 /* HomePageViewController.m in Sources */,
+				38A1802B1CD09D74007B5CA4 /* NSString+Base64.m in Sources */,
+				38A180341CD0B4F9007B5CA4 /* Base64.m in Sources */,
+				38AE777E1CC8DE8800F10484 /* SettingTableViewController.m in Sources */,
+				38AE77701CC8C12F00F10484 /* UINavigationController+FDFullscreenPopGesture.m in Sources */,
+				38A1802E1CD0AE80007B5CA4 /* BaseRequest.m in Sources */,
+				38CD78DA1CC623D2004FFCF4 /* AppDelegate.m in Sources */,
+				38A180271CD09D74007B5CA4 /* AESCrypt.m in Sources */,
+				387B4D011CD1DC020075A191 /* Response.m in Sources */,
+				38A180281CD09D74007B5CA4 /* NSData+AES256.m in Sources */,
+				38A1802A1CD09D74007B5CA4 /* NSData+CommonCrypto.m in Sources */,
+				38AE77681CC88C9300F10484 /* LoginViewController.m in Sources */,
+				389890AA1CCA074300E9AC92 /* RegisterView.m in Sources */,
+				387B4D041CD1FF720075A191 /* BaseViewController.m in Sources */,
+				38A180351CD0B4F9007B5CA4 /* NSString+MD5.m in Sources */,
+				38AE77781CC8C69600F10484 /* HomeTabBarController.m in Sources */,
+				38CD78E31CC623D2004FFCF4 /* WisdomHospital.xcdatamodeld in Sources */,
+				38CD78D71CC623D2004FFCF4 /* main.m in Sources */,
+				38B0089F1CCF767D00613057 /* ForgetView.m in Sources */,
+				387B4CFE1CD1BEE10075A191 /* HospitalInfo.m in Sources */,
+				38AE776B1CC8BC9000F10484 /* RegisterViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		38CD78EA1CC623D2004FFCF4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				38CD78F31CC623D2004FFCF4 /* WisdomHospitalTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		38CD78F51CC623D2004FFCF4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				38CD78FE1CC623D2004FFCF4 /* WisdomHospitalUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		38CD78F01CC623D2004FFCF4 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 38CD78D11CC623D2004FFCF4 /* WisdomHospital */;
+			targetProxy = 38CD78EF1CC623D2004FFCF4 /* PBXContainerItemProxy */;
+		};
+		38CD78FB1CC623D2004FFCF4 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 38CD78D11CC623D2004FFCF4 /* WisdomHospital */;
+			targetProxy = 38CD78FA1CC623D2004FFCF4 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		38CD78DE1CC623D2004FFCF4 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				38CD78DF1CC623D2004FFCF4 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		38CD78E61CC623D2004FFCF4 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				38CD78E71CC623D2004FFCF4 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		38CD79001CC623D2004FFCF4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		38CD79011CC623D2004FFCF4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		38CD79031CC623D2004FFCF4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 731B0E5F74485FE209CA1F50 /* Pods.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				INFOPLIST_FILE = WisdomHospital/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.sxtj.WisdomHospital;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		38CD79041CC623D2004FFCF4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 52A75677940F8D8896B2C37B /* Pods.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				INFOPLIST_FILE = WisdomHospital/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.sxtj.WisdomHospital;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		38CD79061CC623D2004FFCF4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = WisdomHospitalTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.sxtj.WisdomHospitalTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/WisdomHospital.app/WisdomHospital";
+			};
+			name = Debug;
+		};
+		38CD79071CC623D2004FFCF4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = WisdomHospitalTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.sxtj.WisdomHospitalTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/WisdomHospital.app/WisdomHospital";
+			};
+			name = Release;
+		};
+		38CD79091CC623D2004FFCF4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = WisdomHospitalUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.sxtj.WisdomHospitalUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = WisdomHospital;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		38CD790A1CC623D2004FFCF4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = WisdomHospitalUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.sxtj.WisdomHospitalUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = WisdomHospital;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		38CD78CD1CC623D2004FFCF4 /* Build configuration list for PBXProject "WisdomHospital" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				38CD79001CC623D2004FFCF4 /* Debug */,
+				38CD79011CC623D2004FFCF4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		38CD79021CC623D2004FFCF4 /* Build configuration list for PBXNativeTarget "WisdomHospital" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				38CD79031CC623D2004FFCF4 /* Debug */,
+				38CD79041CC623D2004FFCF4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		38CD79051CC623D2004FFCF4 /* Build configuration list for PBXNativeTarget "WisdomHospitalTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				38CD79061CC623D2004FFCF4 /* Debug */,
+				38CD79071CC623D2004FFCF4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		38CD79081CC623D2004FFCF4 /* Build configuration list for PBXNativeTarget "WisdomHospitalUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				38CD79091CC623D2004FFCF4 /* Debug */,
+				38CD790A1CC623D2004FFCF4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		38CD78E11CC623D2004FFCF4 /* WisdomHospital.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				38CD78E21CC623D2004FFCF4 /* WisdomHospital.xcdatamodel */,
+			);
+			currentVersion = 38CD78E21CC623D2004FFCF4 /* WisdomHospital.xcdatamodel */;
+			path = WisdomHospital.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 38CD78CA1CC623D2004FFCF4 /* Project object */;
+}

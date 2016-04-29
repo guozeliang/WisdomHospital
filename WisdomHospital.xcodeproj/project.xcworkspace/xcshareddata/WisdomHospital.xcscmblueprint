@@ -1,0 +1,24 @@
+{
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyRepositoryLocationsKey" : {
+    "1c2a3149-b2f4-fa46-b022-56ae764c73f3" : {
+
+    }
+  },
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
+    "1c2a3149-b2f4-fa46-b022-56ae764c73f3" : 0
+  },
+  "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "C5CA5A3C-52D5-4917-94FB-44F87070484D",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
+    "1c2a3149-b2f4-fa46-b022-56ae764c73f3" : "iostest\/"
+  },
+  "DVTSourceControlWorkspaceBlueprintNameKey" : "WisdomHospital",
+  "DVTSourceControlWorkspaceBlueprintVersion" : 204,
+  "DVTSourceControlWorkspaceBlueprintRelativePathToProjectKey" : "gzl\/WisdomHospital\/WisdomHospital.xcodeproj",
+  "DVTSourceControlWorkspaceBlueprintRemoteRepositoriesKey" : [
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "http:\/\/192.168.1.6:8899\/svnwork\/svn\/iostest",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Subversion",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "1c2a3149-b2f4-fa46-b022-56ae764c73f3"
+    }
+  ]
+}
